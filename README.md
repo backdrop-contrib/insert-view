@@ -1,5 +1,5 @@
 # insert-view
-A Backdrop CMS port of drupal.org/project/insert_view
+- Initial port of drupal.org/project/insert_view to Backdrop.
 
 Insert view filter allows to embed views using tags. The tag syntax is
 relatively simple: [view:name=display=args]. The parameters are: view name, view
