@@ -105,6 +105,8 @@ function insert_view($view_name, $display_id = 'default', $args = '') {
 
   $view->set_display($display_id);
   $view->set_arguments($args);
+  // Patched as described in https://www.drupal.org/node/972656
+  $view->override_path = request_path();
   $output = $view->preview($display_id, $args);
   $view->destroy();
 
