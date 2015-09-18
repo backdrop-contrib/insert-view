@@ -1,5 +1,6 @@
 name = Insert view
 description = Input filter which allows to embed views.
 package = Views
+type = module
 version = "1.0.0"
 backdrop = 1.x
